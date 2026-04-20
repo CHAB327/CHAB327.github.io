@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Kapeso Investments Limited — Premium farm produce, pigs, broiler chickens and grains from Ipafu, Chingola, Zambia." />
+  <title>KAPESO INVESTMENTS LIMITED</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Lato:wght@300;400;700;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+</head>
+
+<body>
+
+  <!-- ═══════════════════════════
+       MOBILE NAV OVERLAY
+  ══════════════════════════════ -->
+  <div class="mobile-nav" role="dialog" aria-label="Mobile navigation">
+    <button class="close-btn" aria-label="Close menu">✕</button>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#products">Produce</a>
+    <a href="#why-us">Why Us</a>
+    <a href="#workers">Our Team</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ═══════════════════════════
+       NAV
+  ══════════════════════════════ -->
+  <nav role="navigation" aria-label="Main navigation">
+    <a href="#" class="nav-logo">KAPESO <span>INVESTMENTS</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#products">Produce</a></li>
+      <li><a href="#why-us">Why Us</a></li>
+      <li><a href="#workers">Our Team</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Toggle mobile menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ═══════════════════════════
+       HERO
+  ══════════════════════════════ -->
+  <!--
+    HERO BACKGROUND IMAGE:
+    Place your own farm photo at:  gallery/farm/hero.jpg
+    The CSS will use it automatically.
+    Fallback = Unsplash farm photo.
+  -->
+  <section class="hero" aria-label="Hero">
+    <div class="hero-content">
+      <div class="hero-badge">🌿 100% Zambian Farm Products</div>
+      <h1>KAPESO<br><em>INVESTMENTS</em><br>LIMITED</h1>
+      <p>From our fields to your table — we raise with care, harvest with pride, and deliver the freshest meat and
+        organic produce every season from Chingola, Zambia.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-primary">Shop Our Produce</a>
+        <a href="#gallery" class="btn btn-outline">View Gallery</a>
+        <a href="#contact" class="btn btn-outline">Order Now</a>
+        <a href="#about" class="btn btn-outline">Our Story</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       STATS BAR
+  ══════════════════════════════ -->
+  <div class="stats" role="region" aria-label="Farm statistics">
+    <div class="stat-item">
+      <span class="stat-num" data-target="5" data-suffix="+">5+</span>
+      <span class="stat-label">Years of Farming</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="120">120</span>
+      <span class="stat-label">Acres of Land</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="200" data-suffix="+">200+</span>
+      <span class="stat-label">Happy Families</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" data-target="12" data-suffix="+">12+</span>
+      <span class="stat-label">Animal Varieties</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════
+       ABOUT
+  ══════════════════════════════ -->
+
+  <section id="about" aria-labelledby="about-title">
+    <div class="about container">
+      <div class="about-img-wrap">
+        <img src="IMAGES/SHEEP.jpg" onerror="this.src='IMAGES/fruits.jpg'" alt="Kapeso Investment farm landscape"
+          loading="lazy" />
+        <div class="about-badge">
+          <span class="num">🌱</span>
+          <span class="txt">Est. 2020</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <span class="section-label">Our Story</span>
+        <h2 class="section-title" id="about-title">Rooted in the Zambian Soil,<br>Growing Sustainably</h2>
+        <p class="section-subtitle">Kapeso Investments Limited is a proudly Zambian farm business based in Ipafu,
+          Chingola. We believe in nurturing the land the way our grandparents did — with patience, respect, and love.
+          Every animal we raise, every vegetable and grain we grow, tells the story of dedication and hard work.</p>
+        <ul class="about-list">
+          <li>Certified healthy farm practices — no harmful additives</li>
+          <li>Premium pork from well-managed pig farms</li>
+          <li>Quality broiler chickens raised on balanced feed</li>
+          <li>Heritage grains and legumes grown traditionally</li>
+          <li>Direct farm-to-family delivery available in Chingola &amp; Ndola</li>
+          <li>Transparent sourcing — you know exactly where your food comes from</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       GALLERY
+  ══════════════════════════════ -->
+  <!--
+ 
+  -->
+  <section id="gallery" class="gallery-section" aria-labelledby="gallery-title">
+    <div class="gallery-header">
+      <span class="section-label">Photo Gallery</span>
+      <h2 class="section-title" id="gallery-title">Life on the Farm</h2>
+      <p class="section-subtitle">Real photos from Kapeso Investments — our animals, our produce, our people.</p>
+    </div>
+
+    <!-- FILTER TABS -->
+    <div class="gallery-tabs" role="tablist" aria-label="Gallery categories">
+      <button class="gallery-tab active" data-filter="all" role="tab">All</button>
+      <button class="gallery-tab" data-filter="pigs" role="tab">🐷 Pigs</button>
+      <button class="gallery-tab" data-filter="chickens" role="tab">🐔 Chickens</button>
+      <button class="gallery-tab" data-filter="vegetables" role="tab">🥦 Vegetables</button>
+      <button class="gallery-tab" data-filter="grains" role="tab">🌾 Grains</button>
+      <button class="gallery-tab" data-filter="farm" role="tab">🚜 Farm</button>
+      <button class="gallery-tab" data-filter="team" role="tab">👷 Team</button>
+    </div>
+
+    <!-- GALLERY GRID -->
+    <div class="gallery-grid">
+
+      <!-- ──── PIGS ──── -->
+
+      <div class="gallery-item" data-category="pigs" role="button" tabindex="0" aria-label="View pig photo">
+        <img src="IMAGES/PIGLETS.jpg" onerror="this.src='IMAGES/PROK.jpg'" alt="Our pigs at Kapeso farm"
+          loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Pigs</small>
+          <span>Our Pig Farm</span>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="pigs" role="button" tabindex="0" aria-label="View pig photo">
+        <img src="IMAGES/PIGLETS.jpg" onerror="this.src='IMAGES/PIGLETS.jpg'" alt="Pigs being raised at Kapeso"
+          loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Pigs</small>
+          <span>Happy &amp; Healthy</span>
+        </div>
+      </div>
+
+      <!-- Placeholder: replace with your own pig photo -->
+      <div class="gallery-placeholder" data-category="pigs">
+        <span class="ph-icon">🐷</span>
+        <span>Upload pig_3.jpg to gallery/pigs/</span>
+      </div>
+
+      <!-- ──── CHICKENS ──── -->
+      <div class="gallery-item" data-category="chickens" role="button" tabindex="0" aria-label="View chicken photo">
+        <img src="IMAGES/chicken.jpg" onerror="this.src='IMAGES/CHICKENS.jpg'" alt="Broiler chickens at Kapeso farm"
+          loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Chickens</small>
+          <span>Broiler Farm</span>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="chickens" role="button" tabindex="0" aria-label="View chicken photo">
+        <img src="IMAGES/chicken.jpg" onerror="this.src='IMAGES/CHICKENS.jpg'"
+          alt="Fresh broiler chickens ready for sale" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Chickens</small>
+          <span>Ready for Market</span>
+        </div>
+      </div>
+
+      <!-- Placeholder: replace with your chicken photo -->
+      <div class="gallery-placeholder" data-category="chickens">
+        <span class="ph-icon">🐔</span>
+        <span>Upload chicken_3.jpg to gallery/chickens/</span>
+      </div>
+
+      <!-- ──── VEGETABLES ──── -->
+      <div class="gallery-item" data-category="vegetables" role="button" tabindex="0"
+        aria-label="View vegetables photo">
+        <img src="IMAGES/tomatoes.jpg" onerror="this.src='IMAGES/tomatoes.jpg.jpg'"
+          alt="Fresh vegetables grown at Kapeso" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Vegetables</small>
+          <span>Field Fresh</span>
+        </div>
+      </div>
+
+      <!-- Placeholder-->
+      <div class="gallery-placeholder" data-category="vegetables">
+        <span class="ph-icon">🥦</span>
+        <span>Upload veg_2.jpg to gallery/vegetables/</span>
+      </div>
+
+      <!-- ──── GRAINS ──── -->
+      <div class="gallery-item" data-category="grains" role="button" tabindex="0" aria-label="View grains photo">
+        <img src="IMAGES/grain.jpg" onerror="this.src='IMAGES/grain.jpg'" alt="Grains and legumes from Kapeso farm"
+          loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Grains &amp; Legumes</small>
+          <span>Heritage Grains</span>
+        </div>
+      </div>
+
+      <!-- Placeholder: replace with your grain photo -->
+      <div class="gallery-placeholder" data-category="grains">
+        <span class="ph-icon">🌾</span>
+        <span>Upload grain_2.jpg to gallery/grains/</span>
+      </div>
+
+      <!-- ──── FARM ──── -->
+      <div class="gallery-item" data-category="farm" role="button" tabindex="0" aria-label="View farm photo">
+        <img src="gallery/farm/farm_1.jpg" onerror="this.src='IMAGES/sunset.jpg'" alt="Kapeso farm landscape"
+          loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Farm</small>
+          <span>Ipafu, Chingola</span>
+        </div>
+      </div>
+
+      <div class="gallery-item" data-category="farm" role="button" tabindex="0" aria-label="View farm photo">
+        <img src="gallery/farm/farm_2.jpg" onerror="this.src='IMAGES/GOATS.jpg'" alt="Our farmland" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Farm</small>
+          <span>Our 120 Acres</span>
+        </div>
+      </div>
+
+      <!-- ──── TEAM ──── -->
+      <div class="gallery-item" data-category="team" role="button" tabindex="0" aria-label="View team photo">
+        <img src="gallery/team/team_1.jpg"
+          onerror="this.src='https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80'"
+          alt="Kapeso farm team at work" loading="lazy" />
+        <div class="gallery-item-overlay">
+          <small>Our Team</small>
+          <span>Dedicated Farmers</span>
+        </div>
+      </div>
+
+      <!-- Placeholder: replace with your team photo -->
+      <div class="gallery-placeholder" data-category="team">
+        <span class="ph-icon">👷</span>
+        <span>Upload team_2.jpg to gallery/team/</span>
+      </div>
+
+    </div><!-- /.gallery-grid -->
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" role="dialog" aria-label="Image viewer" aria-modal="true">
+    <button class="lightbox-close" aria-label="Close image viewer">✕</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Previous image">‹</button>
+    <img class="lightbox-img" src="" alt="Gallery image" />
+    <button class="lightbox-nav lightbox-next" aria-label="Next image">›</button>
+    <span class="lightbox-caption"></span>
+  </div>
+
+  <!-- ═══════════════════════════
+       PRODUCTS
+  ══════════════════════════════ -->
+
+  <section id="products" class="products" aria-labelledby="products-title">
+    <div class="products-header">
+      <span class="section-label">What We Sell</span>
+      <h2 class="section-title" id="products-title">Our Premium Produce</h2>
+      <p class="section-subtitle">Handpicked and freshly raised — the best from our Chingola farm, delivered to you.</p>
+    </div>
+    <div class="products-grid">
+
+      <div class="product-card">
+        <div class="product-ribbon">Best Seller</div>
+        <img src="IMAGES/PIGLETS.jpg" onerror="this.src='IMAGES/PIGLETS.jpg'" alt="Pork and piglets from Kapeso"
+          loading="lazy" />
+        <div class="product-info">
+          <div class="product-tag">🐷 Pork</div>
+          <div class="product-name">Premium Pork &amp; Piglets</div>
+          <p class="product-desc">Raised on quality feed in spacious, clean pens. Our pork is tender, flavorful, and
+            hygienically processed. Piglets also available for buyers who want to raise their own.</p>
+          <div class="product-action">
+            <span class="product-price">Enquire →</span>
+            <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="IMAGES/BROILERS.jpg" onerror="this.src='IMAGES/fruits.jpg'" alt="Broiler chickens from Kapeso"
+          loading="lazy" />
+        <div class="product-info">
+          <div class="product-tag">🐔 Poultry</div>
+          <div class="product-name">Broiler Chickens</div>
+          <p class="product-desc">Well-fed, fast-growing broiler chickens — raised to the highest standards. Available
+            whole, dressed, or live. Weekly batches ready for market.</p>
+          <div class="product-action">
+            <span class="product-price">Enquire →</span>
+            <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="IMAGES/fruits.jpg" onerror="this.src='IMAGES/tomatoes.jpg'" alt="Fresh vegetables from Kapeso"
+          loading="lazy" />
+        <div class="product-info">
+          <div class="product-tag">🥦 Vegetables</div>
+          <div class="product-name">Fresh Seasonal Vegetables</div>
+          <p class="product-desc">Crisp, colourful, and nutrient-rich vegetables grown without harmful chemicals —
+            straight from our fields. Seasonal availability, always fresh.</p>
+          <div class="product-action">
+            <span class="product-price">Enquire →</span>
+            <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card">
+        <img src="IMAGES/grain.jpg" onerror="this.src='IMAGES/grain.jpg'" alt="Grains and legumes from Kapeso"
+          loading="lazy" />
+        <div class="product-info">
+          <div class="product-tag">🌾 Grains and Legumes</div>
+          <div class="product-name">Whole Grains &amp; Legumes</div>
+          <p class="product-desc">Heritage grains and legumes farmed using traditional methods that preserve flavour and
+            nutrition. Bulk orders welcome for businesses and households.</p>
+          <div class="product-action">
+            <span class="product-price">Enquire →</span>
+            <a href="#contact" class="btn btn-primary btn-sm">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       WHY US
+  ══════════════════════════════ -->
+  <section id="why-us" aria-labelledby="why-title">
+    <div class="features-wrap container">
+      <div class="feature-list">
+        <span class="section-label">Why Choose Us</span>
+        <h2 class="section-title" id="why-title">The Kapeso<br>Difference</h2>
+
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">🌿</div>
+          <div>
+            <h3>100% Certified Farm Products</h3>
+            <p>Every product we supply meets strict health standards — no shortcuts, no compromise. We are proud of what
+              we put on your family's table.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">🚜</div>
+          <div>
+            <h3>Directly From Our Farm</h3>
+            <p>No middlemen. You buy directly from us, ensuring freshness and fair pricing for every customer in
+              Chingola, Ndola and beyond.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">📦</div>
+          <div>
+            <h3>Bulk; Weekly Orders</h3>
+            <p>Whether you're feeding a family or running a business, we accommodate all order sizes with consistent
+              quality and timely delivery.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">♻️</div>
+          <div>
+            <h3>Eco-Friendly Practices</h3>
+            <p>We use sustainable farming methods that protect the land for future generations — because the earth is
+              our most important resource.</p>
+          </div>
+        </div>
+
+        <div class="feature-item">
+          <div class="feature-icon" aria-hidden="true">🤝</div>
+          <div>
+            <h3>Community Committed</h3>
+            <p>We employ local workers, support local suppliers and re-invest in the Chingola community — growing
+              together, not just growing produce.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="features-img">
+        <img src="gallery/pigs/farm_pigs.jpg" onerror="this.src='IMAGES/PIGLETS.jpg'"
+          alt="Well-raised pigs at Kapeso farm" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       WORKERS
+  ══════════════════════════════ -->
+
+  <section id="workers" class="workers-section" aria-labelledby="workers-title">
+    <span class="section-label">Our Team</span>
+    <h2 class="section-title" id="workers-title">Meet the People Behind the Farm</h2>
+    <p class="section-subtitle" style="margin: 0 auto; text-align: center;">Dedicated, passionate, and hard-working —
+      the heart of Kapeso Investments.</p>
+
+    <div class="workers-grid">
+
+      <div class="worker-card">
+        <div class="worker-img">
+          <img src="IMAGES/dedu.jpeg" onerror="this.onerror=null; this.parentElement.innerHTML='👨‍🌾';"
+            alt="Dedu Sakala Mwense" loading="lazy" />
+        </div>
+        <div class="worker-name">Dedu Sakala Mwense</div>
+        <div class="worker-role">Founder</div>
+      </div>
+
+      <div class="worker-card">
+        <div class="worker-img">
+          <img src="IMAGES/majory.jpeg" onerror="this.onerror=null; this.parentElement.innerHTML='👩‍🌾';"
+            alt="Majory Sansali Mwense" loading="lazy" />
+        </div>
+        <div class="worker-name">Majory Sansali Mwense</div>
+        <div class="worker-role">C0-Founder</div>
+      </div>
+
+      <!-- Add more workers by copying the block above -->
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       TESTIMONIALS
+  ══════════════════════════════ -->
+  <section class="testimonials" aria-labelledby="testimonials-title">
+    <span class="section-label">Customer Love</span>
+    <h2 class="section-title" id="testimonials-title">What Our Families Say</h2>
+    <div class="testimonials-grid">
+
+      <div class="testimonial-card">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p>"The broiler chickens from Kapeso are the best I have ever tasted — well fed, clean, and always fresh. My
+          whole family now orders from them every week!"</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">A</div>
+          <div>
+            <div class="author-name">Amara Mutale</div>
+            <div class="author-loc">Lusaka, Zambia</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p>"Knowing exactly where my food comes from gives me such peace of mind. Kapeso is transparent, passionate, and
+          genuinely committed to quality farming."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">C</div>
+          <div>
+            <div class="author-name">Chabota Malambo</div>
+            <div class="author-loc">Chingola, Zambia</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <div class="stars" aria-label="5 stars">★★★★★</div>
+        <p>"The best suppliers of animal products in Chingola — the pork is always fresh and the prices are fair. I
+          recommend Kapeso Investments to everyone I know."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" aria-hidden="true">M</div>
+          <div>
+            <div class="author-name">Majory Sansali</div>
+            <div class="author-loc">Ndola, Zambia</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       CONTACT
+  ══════════════════════════════ -->
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="contact-wrap container">
+
+      <div class="contact-info">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title" id="contact-title">Visit Our Farm or<br>Order Today</h2>
+        <p class="section-subtitle" style="margin-bottom:2.5rem;">Have questions? Want to place a bulk order or schedule
+          a farm visit? We'd love to hear from you.</p>
+
+        <div class="contact-detail">
+          <span class="icon">📍</span>
+          <div>Ipafu, <strong>Chingola</strong>, Copperbelt Province, Zambia</div>
+        </div>
+        <div class="contact-detail">
+          <span class="icon">📞</span>
+          <div><a href="tel:+260966287580">+260 966 287 580</a></div>
+        </div>
+        <div class="contact-detail">
+          <span class="icon">✉️</span>
+          <div><a href="mailto:chabotam54@gmail.com">chabotam54@gmail.com</a></div>
+        </div>
+        <div class="contact-detail">
+          <span class="icon">🕗</span>
+          <div>Monday – Saturday: <strong>6:00 AM – 6:00 PM</strong></div>
+        </div>
+        <div class="contact-detail">
+          <span class="icon">🚚</span>
+          <div>Delivery available: Chingola, Ndola and surrounding areas</div>
+        </div>
+      </div>
+
+      <form class="contact-form" novalidate aria-label="Contact form">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="Your Name" required autocomplete="name" />
+          <input type="email" name="email" placeholder="Email Address" required autocomplete="email" />
+        </div>
+        <input type="tel" name="phone" placeholder="Phone Number (e.g. +260 9XX XXX XXX)" autocomplete="tel" />
+        <select name="interest" aria-label="I am interested in">
+          <option value="">I'm interested in…</option>
+          <option value="pork">Pork / Piglets</option>
+          <option value="chickens">Broiler Chickens</option>
+          <option value="vegetables">Fresh Vegetables</option>
+          <option value="grains">Grains &amp; Legumes</option>
+          <option value="bulk">Bulk Order</option>
+          <option value="visit">Farm Visit</option>
+          <option value="partnership">Business Partnership</option>
+          <option value="other">Other</option>
+        </select>
+        <textarea name="message"
+          placeholder="Your message — tell us what you need, quantities, delivery location…"></textarea>
+        <button class="btn btn-primary" type="submit">Send Message →</button>
+      </form>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════
+       FOOTER
+  ══════════════════════════════ -->
+  <footer role="contentinfo">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">KAPESO <span>INVESTMENTS</span></a>
+        <p>From our fields to your table — proudly Zambian, rooted in Chingola. Quality farm produce, raised with care
+          since 2022.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#products">Our Produce</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#workers">Our Team</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Our Products</h4>
+        <ul>
+          <li><a href="#products">Pork &amp; Piglets</a></li>
+          <li><a href="#products">Broiler Chickens</a></li>
+          <li><a href="#products">Fresh Vegetables</a></li>
+          <li><a href="#products">Grains and Legumes</a></li>
+          <li><a href="#contact">Bulk Orders</a></li>
+          <li><a href="#contact">Farm Visits</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 <strong>KAPESO INVESTMENTS LIMITED</strong>. All rights reserved. A place for all your farm products.
+      </p>
+      <div class="social-links" aria-label="Social media links">
+        <a href="https://wa.me/+260966970016" target="_blank" rel="noopener" aria-label="WhatsApp">📱</a>
+        <a href="mailto:chabotam54@gmail.com" aria-label="Email">✉️</a>
+        <a href="tel:+260966287580" aria-label="Call us">📞</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button class="back-top" aria-label="Back to top">↑</button>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
